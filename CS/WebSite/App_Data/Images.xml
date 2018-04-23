@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<items>
+  <item id="1" FileName="Image1.jpg" Text="Image 1" />
+  <item id="2" FileName="Image2.jpg" Text="Image 2" />
+  <item id="3" FileName="Image3.jpg" Text="Image 3" />
+</items>
