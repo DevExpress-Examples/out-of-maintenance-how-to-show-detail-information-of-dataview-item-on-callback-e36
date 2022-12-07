@@ -1,4 +1,4 @@
-﻿Imports DevExpress.Web.ASPxCallback
+﻿Imports DevExpress.Web
 Imports System
 Imports System.Xml
 
@@ -9,7 +9,7 @@ Partial Public Class ASPxperience_DataView_ItemCommand
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 
     End Sub
-    Protected Sub ASPxCallback1_Callback(ByVal source As Object, ByVal e As DevExpress.Web.ASPxCallback.CallbackEventArgs)
+    Protected Sub ASPxCallback1_Callback(ByVal source As Object, ByVal e As DevExpress.Web.CallbackEventArgs)
 
         Dim xpath_Renamed As String = String.Format("//items/item[@id='{0}']", e.Parameter)
         Dim node As XmlNode = XmlDataSource2.GetXmlDocument().SelectSingleNode(xpath_Renamed)
